@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./blog.css";
 import { addBlog } from "../../store/blogSlice";
 import { useDispatch } from "react-redux";
 

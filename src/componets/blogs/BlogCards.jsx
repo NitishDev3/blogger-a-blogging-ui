@@ -1,4 +1,5 @@
 import React from 'react';
+import './blog.css';
 import { useNavigate } from 'react-router-dom';
 
 const BlogCards = ({ heading, author, id }) => {
