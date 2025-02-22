@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body{
+  background-color: #FFFCFF;
+  font-size: 16px;
+}
+
+.loading-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  width: 100%;
+}
+
+.loading-circle{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 10px solid #FFFCFF;
+  border-top: 10px solid #ff7f11;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

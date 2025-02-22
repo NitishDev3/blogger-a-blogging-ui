@@ -1,0 +1,46 @@
+.about-page{
+    height: 81vh;
+    width: 70vw;
+    margin: 10px auto;
+}
+
+.about-page h1{
+    font-size: 30px;
+    margin: 20px 0px;
+    color: #ff7f11;
+}
+
+.about-page p{
+    font-size: 19px;
+    margin: 10px; 
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .about-page {
+    width: 90vw;
+  }
+
+  .about-page h1 {
+    font-size: 25px;
+  }
+
+  .about-page p {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-page {
+    width: 100%;
+    height: auto;
+  }
+
+  .about-page h1 {
+    font-size: 20px;
+  }
+
+  .about-page p {
+    font-size: 15px;
+  }
+}

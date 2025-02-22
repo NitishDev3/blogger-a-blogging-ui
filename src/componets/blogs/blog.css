@@ -1,0 +1,109 @@
+.blog-page {
+  width: 70vw;
+  margin: 10px auto;
+  text-align: center;
+  min-height: 80vh;
+}
+
+.blog-page h1 {
+  font-size: 30px;
+  margin: 20px 0px;
+  color: #ff7f11;
+}
+.blog-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px 0px;
+}
+
+.blog-card {
+  text-align: left;
+  width: 20%;
+  height: 200px;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 4px;
+  border: 1px solid #beb7a4;
+  background-color: rgb(206, 201, 184);
+}
+
+.blog-card:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 0px #beb7a4;
+  scale: 1.09;
+}
+
+.blog-content-page {
+  width: 70vw;
+  margin: 10px auto;
+  text-align: left;
+  min-height: 80vh;
+}
+
+.blog-content-page h1 {
+  font-size: 30px;
+  margin: 20px 0px;
+  color: #ff7f11;
+}
+
+.blog-content-page h2 {
+  font-size: 25px;
+  margin: 20px 0px;
+  color: #ff7f11;
+}
+
+.blog-content-page p {
+  font-size: 19px;
+  margin: 10px;
+  line-height: 1.5;
+}
+
+.blog-content {
+  padding: 20px;
+}
+
+.blog-add-btn {
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #beb7a4;
+}
+
+.blog-add-btn:hover {
+  cursor: pointer;
+  background-color: #ff7f11;
+  color: white;
+  scale: 1.07;
+  box-shadow: 0px 0px 20px 0px #beb7a4;
+}
+
+.blog-input {
+  width: 70vw;
+  margin: 10px auto;
+  text-align: left;
+  position: absolute;
+  background-color: rgba(159, 159, 159, 0.95);
+  z-index: 10;
+  text-align: center;
+  padding: 20px;
+}
+
+.blog-input input {
+  display: block;
+  width: 70%;
+  margin: 10px auto;
+  border-radius: 5px;
+  border: 1px solid #beb7a4;
+  padding: 5px;
+}
+
+.blog-input textarea {
+  display: block;
+  width: 70%;
+  margin: 10px auto;
+  border-radius: 5px;
+  border: 1px solid #beb7a4;
+  height: 200px;
+}
