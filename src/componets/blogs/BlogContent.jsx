@@ -1,5 +1,5 @@
 import React from "react";
-import "./Blog.css";
+import "./blog.css";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate, useParams } from "react-router-dom";
 import { deleteBlog } from "../../store/blogSlice";
